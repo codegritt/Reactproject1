@@ -7,7 +7,7 @@ import React from 'react'
 
 class Toggle extends React.Component{
     constructor(value){
-        super(value);
+        super(value);  
         this,state={isToggleOn:true};
         this.handleClick=this.handleClick.bind(this);
     }
